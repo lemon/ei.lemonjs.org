@@ -1,0 +1,13 @@
+{
+  name: 'Evil Icons for Lemon'
+  deploy: {
+    service: 'github'
+  }
+  prod: {
+    hostname: 'ei.lemonjs.org'
+  }
+  packages: [
+    'lemonjs-ei'
+    'lemonjs-lui'
+  ]
+}
